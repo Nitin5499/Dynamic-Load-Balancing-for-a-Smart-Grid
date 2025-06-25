@@ -1,7 +1,0 @@
-global:
-  scrape_interval: 5s
-
-scrape_configs:
-  - job_name: 'substation_service'
-    static_configs:
-      - targets: ['substation-1:8000', 'substation-2:8000']
